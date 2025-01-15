@@ -1,0 +1,30 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo Styling */
+.logo-container {
+    position: absolute; /* Place the logo at a fixed position */
+    top: 10px; /* Adjust the distance from the top of the page */
+    left: 10px; /* Adjust the distance from the left of the page */
+}
+
+.business-logo {
+    width: 100px; /* Set the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Change cursor on hover */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.business-logo:hover {
+    transform: scale(1.1); /* Slight zoom-in effect on hover */
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - AI Food Redistribution</title>
+    <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="basic.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="how it.html">How It Works</a></li>
+                <li><a href="feature.html">Features</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-title">
+            <h1>Contact Us</h1>
+            <p>We’d love to hear from you! Reach out to us for any inquiries or assistance.</p>
+        </div>
+
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="submit-form.php" method="post">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <label for="phone">Mobile Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Ph. Number" pattern="[0-9]{10}" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <!-- Contact Details -->
+            <div class="contact-details">
+                <h2>Get in Touch</h2>
+                <p><strong>Email:</strong> panhrishikesh25@gmail.com</p>
+                <p><strong>Phone:</strong> +91 7047868868 , +91 9476456011 , +91 9064616256</p>
+                <p><strong>Address:</strong> University of Engineering & Management ,NewTown </p>
+
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" target="_blank">Facebook</a> |
+                    <a href="#" target="_blank">Twitter</a> |
+                    <a href="#" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 AI Food Redistribution | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
